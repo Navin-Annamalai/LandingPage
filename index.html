@@ -182,7 +182,7 @@
 
     .box {
         width: 270px;
-        height: 300px;
+        height: 250px;
         border-radius: 12px;
         background-color: #ffffff;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
@@ -195,7 +195,7 @@
         font-size: 17px;
         font-weight: 550;
         padding-left: 20px;
-        padding-top: 180px;
+        padding-top: 150px;
 
     }
 
@@ -335,7 +335,7 @@
         border-radius: 10px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         width: 400px;
-        margin-left:600px ;
+        margin-left: 600px;
     }
 
     .testimonial-card p {
@@ -389,7 +389,7 @@
         border-radius: 10px;
         max-width: 500px;
         position: absolute;
-        
+
     }
 
     .user-avatar {
@@ -596,29 +596,49 @@
         font-size: small;
         color: #888;
     }
-    .signup{
+
+    .signup {
         position: absolute;
-        height: 120px;
-        width: 120px;
-        margin-left: 80px;
+        height: 70px;
+        width: 90px;
+        margin-left: 0px;
         margin-top: 35px;
     }
-    .star{
+
+    .money {
+        position: absolute;
+        height: 65px;
+        width: 60px;
+        margin-left: 10px;
+        margin-top: 35px;
+    }
+
+    .travel {
+        position: absolute;
+        height: 70px;
+        width: 65px;
+        margin-left: 0px;
+        margin-top: 35px;
+    }
+
+    .star {
         position: absolute;
         height: 25px;
         width: 25px;
         margin-left: 50px;
     }
-    .arrow{
+
+    .arrow {
         position: absolute;
         height: 35px;
         width: 25px;
         padding-top: 5px;
         padding-left: 10px;
     }
+
     .discount {
-        background-color:#ffc59b65;
-        color:#ff6600;
+        background-color: #ffc59b65;
+        color: #ff6600;
         border-radius: 3px;
         padding: 2px;
         margin-left: 15px;
@@ -656,7 +676,7 @@
 
 
         <div class="explore1"
-            style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+            style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
             <div
                 style="display: inline-block;;font-size: smaller;padding-left:20px;padding-bottom: 20px;padding-top: 20px;">
                 <label for="loc">Location</label>
@@ -679,10 +699,10 @@
                 </select><br>
                 <span style="font-size:10px;color:rgb(135, 135, 135);">Number of guest</span>
             </div>
-            <span style="margin-left: 30px;"><button class="button" style="text-align: center;">Explore
+            <span style="margin-left: 20px;"><button class="button" style="text-align: center;">Explore
                     Now</button></span>
         </div>
-        <section style="background-color: rgb(247, 248, 252);margin-top: 35px;">
+        <section style="background-color: rgb(247, 248, 252);margin-top: 35px;padding-bottom: 50px;">
             <img src=Page2_Task_2.png class="image-container1">
             <div class="commonfont">
                 <b>Things you need <span style="color:rgb(255, 128, 0);">to do</span></b>
@@ -691,21 +711,21 @@
                 can afford.</p>
             <div class="container">
                 <div class="box" style="margin-left: 80px;">
-                    <img class = "signup" src = signup.png>
+                    <img class="signup" src=signup.png>
                     <div class="boxtittle">Sign Up</div>
                     <div class="box-description">Completed all the work associated<br> with planning and processing
                     </div>
                 </div>
 
                 <div class="box">
-                    <img class = "signup" src = money.png>
+                    <img class="money" src=money.png>
                     <div class="boxtittle">Worth of Money</div>
                     <div class="box-description">Completed all the work associated<br> with planning and processing
                     </div>
                 </div>
 
                 <div class="box">
-                    <img class = "signup" src = travel.png >
+                    <img class="travel" src=travel.png>
                     <div class="boxtittle">Exciting travel</div>
                     <div class="box-description">Completed all the work associated<br> with planning and processing
                     </div>
@@ -727,21 +747,29 @@
                 </div>
 
                 <div class="box1" style="margin-left: 25px;">
-                    <div class="boxtittle">Madrid <img class = star src="Star.png"><span class="commonfont1" style="padding-left: 80px;">4.8</span></div>
-                    <div class="box-description">Spain<strike style="padding-left: 50px;">$950</strike><b class="discount">$850</b></div>
+                    <div class="boxtittle">Madrid <img class=star src="Star.png"><span class="commonfont1"
+                            style="padding-left: 80px;">4.8</span></div>
+                    <div class="box-description">Spain<strike style="padding-left: 50px;">$950</strike><b
+                            class="discount">$850</b></div>
 
                 </div>
                 <div class="box1">
-                    <div class="boxtittle">Firenze<img class = star src="Star.png"><span class="commonfont1" style="padding-left: 80px;">4.5</span></div>
-                    <div class="box-description">Italy<strike style="padding-left: 60px;">$850</strike><b class="discount">$750</b></div>
+                    <div class="boxtittle">Firenze<img class=star src="Star.png"><span class="commonfont1"
+                            style="padding-left: 80px;">4.5</span></div>
+                    <div class="box-description">Italy<strike style="padding-left: 60px;">$850</strike><b
+                            class="discount">$750</b></div>
                 </div>
                 <div class="box1">
-                    <div class="boxtittle">Paris<img class = star src="Star.png" style="margin-left: 70px;"><span class="commonfont1" style="padding-left: 100px;">4.4</span></div>
-                    <div class="box-description">France<strike style="padding-left: 40px;">$699<b class="discount">$599</b></strike></div>
+                    <div class="boxtittle">Paris<img class=star src="Star.png" style="margin-left: 70px;"><span
+                            class="commonfont1" style="padding-left: 100px;">4.4</span></div>
+                    <div class="box-description">France<strike style="padding-left: 40px;">$699<b
+                                class="discount">$599</b></strike></div>
                 </div>
                 <div class="box1">
-                    <div class="boxtittle">London<img class = star src="Star.png" style="margin-left: 55px;"><span class="commonfont1" style="padding-left: 80px;">4.8</span></div>
-                    <div class="box-description">UK<strike style="padding-left: 65px;">$850</strike><b class="discount">$850</b></div>
+                    <div class="boxtittle">London<img class=star src="Star.png" style="margin-left: 55px;"><span
+                            class="commonfont1" style="padding-left: 80px;">4.8</span></div>
+                    <div class="box-description">UK<strike style="padding-left: 65px;">$850</strike><b
+                            class="discount">$850</b></div>
                 </div>
             </div>
             <div class="containercircle">
@@ -763,25 +791,33 @@
         <button class="circle-button1">&#8592;</button>
         <button class="circle-button" style="margin-left: 10PX;">&#8594;</button>
     </div>
-    <div class="container2">
-        <div><img class="image-container4" src="Page3_1.jpg" style="padding-left: 55px;">
-            <img class="image-container4" src="Page3_4.jpg" style="padding-left: 385px;">
-            <img class="image-container4" src="Page3_1.jpg" style="padding-left: 715px;">
+    <div class="container2" style="border-radius: 5px;">
+        <div><img class="image-container4" src="Page4_1.jpg" style="padding-left: 55px;">
+            <img class="image-container4" src="Page4_2.jpg" style="padding-left: 385px;">
+            <img class="image-container4" src="Page4_3.jpg" style="padding-left: 715px;">
         </div>
 
         <div class="box2" style="margin-left: 80px;">
             <div class="boxtittle1">Rome, Italy<span class="commonfont3" style="padding-left: 100px;">$5,42K</span>
-            </div><img class ="arrow" src="Arrow.png">
-            <div class="commonfont4">10 Days Trip<img class = star src="Star.png" style="margin-left: 120px; padding-bottom: 20px;"><span style="padding-left: 150px;">4.8 </span></div>
+            </div><img class="arrow" src="Arrow.png">
+            <div class="commonfont4">10 Days Trip<img class=star src="Star.png"
+                    style="margin-left: 120px; padding-bottom: 20px;"><span style="padding-left: 150px;">4.8 </span>
+            </div>
         </div>
         <div class="box2">
             <div class="boxtittle1">London, UK<span class="commonfont3" style="padding-left: 100px;">$2,42K</span></div>
-            <img class ="arrow" src="Arrow.png"><div class="commonfont4"> 10 Days Trip<img class = star src="Star.png" style="margin-left: 120px; padding-bottom: 20px;"><span style="padding-left: 150px;">4.8</span></div>
+            <img class="arrow" src="Arrow.png">
+            <div class="commonfont4"> 10 Days Trip<img class=star src="Star.png"
+                    style="margin-left: 120px; padding-bottom: 20px;"><span style="padding-left: 150px;">4.8</span>
+            </div>
         </div>
         <div class="box2">
             <div class="boxtittle1">Osaka, Japan<span class="commonfont3" style="padding-left: 100px;">$5,42K</span>
             </div>
-            <img class ="arrow" src="Arrow.png"><div class="commonfont4"> 10 Days Trip<img class = star src="Star.png" style="margin-left: 120px; padding-bottom: 20px;"><span style="padding-left: 150px;">4.8</span></div>
+            <img class="arrow" src="Arrow.png">
+            <div class="commonfont4"> 10 Days Trip<img class=star src="Star.png"
+                    style="margin-left: 120px; padding-bottom: 20px;"><span style="padding-left: 150px;">4.8</span>
+            </div>
         </div>
     </div>
     </section>
@@ -792,7 +828,8 @@
                         people say</b><br><strong
                         style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 40px;color: rgb(255, 128, 0)">about
                         us.</strong></h2>
-                <p class="testimonial-subtext" style="line-height: 25px;">Our Clients send us bunch of smilies with our services <br>and we love them.
+                <p class="testimonial-subtext" style="line-height: 25px;">Our Clients send us bunch of smilies with our
+                    services <br>and we love them.
                 </p>
                 <div class="navigation-buttons">
                     <button class="nav-btn prev-btn">&#8592;</button>
@@ -812,7 +849,7 @@
                         <p>CEO of Red Button</p>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -823,22 +860,22 @@
                 Get update with <span class="highlight">latest blog</span></h2>
             <div class="blog-container">
                 <div class="blog-item">
-                    <img src="Page3_1.jpg" alt="Travel Blog 1">
+                    <img src="Page5_1.jpg" alt="Travel Blog 1" style="border-radius: 5px;">
                     <h3>The Amazing Difference a Year of Travelling.</h3>
                     <p class="date">July 27, 2021</p>
                 </div>
                 <div class="blog-item">
-                    <img src="Page3_2.jpg" alt="Travel Blog 2">
+                    <img src="Page5_2.jpg" alt="Travel Blog 2" style="border-radius: 5px;">
                     <h3>Travel far enough, you meet yourself.</h3>
                     <p class="date">July 27, 2021</p>
                 </div>
                 <div class="blog-item">
-                    <img src="Page3_3.jpg" alt="Travel Blog 3">
+                    <img src="Page5_3.jpg" alt="Travel Blog 3" style="border-radius: 5px;">
                     <h3>How to Save Money While Visiting Africa.</h3>
                     <p class="date">July 27, 2021</p>
                 </div>
                 <div class="blog-item">
-                    <img src="Page3_4.jpg" alt="Travel Blog 4">
+                    <img src="Page5_4.jpg" alt="Travel Blog 4" style="border-radius: 5px;">
                     <h3>Reflections on 5 Months of Travel: Time to Hang.</h3>
                     <p class="date">July 27, 2021</p>
                 </div>
@@ -904,12 +941,7 @@
                     <span style="padding-left: 750px;">Terms & Conditions</span>
                 </p>
             </div>
-
         </footer>
     </section>
-
-
-
 </body>
-
 </html>
