@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabook</title>
+
 </head>
 <style>
     .button {
@@ -45,6 +46,48 @@
         height: 100px;
     }
 
+    .image-container1 {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+        margin-left: 800px;
+        margin-top: 50px;
+    }
+
+    .image-container2 {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
+        margin-left: 95px;
+        margin-bottom: 30px;
+    }
+
+    .image-container3 {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border-radius: 5px;
+        margin-left: 370px;
+        margin-bottom: 30px;
+    }
+
+    .image-container4 {
+        position: absolute;
+        width: 280px;
+        height: 280px;
+        border-radius: 5px;
+        margin-left: 75px;
+    }
+
+    .image-container5 {
+        position: absolute;
+        border-radius: 5px;
+        padding-left: 100px;
+        margin-bottom: 30px;
+    }
+
     .dropddown {
         background: transparent;
         border: 0px;
@@ -57,11 +100,535 @@
         width: 25px;
         height: 20px;
     }
+
+    .commonfont {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        padding-top: 100px;
+        font-size: 35PX;
+    }
+
+    .commonfontwhat {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: left;
+        margin-left: 150px;
+        padding-top: 100px;
+        font-size: 35PX;
+    }
+
+    .commonfontourclients {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        color: rgb(135, 135, 135);
+        text-align: left;
+        margin-left: 150px;
+        line-height: 25px;
+    }
+
+    .commonfont1 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        color: rgb(135, 135, 135);
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .commonfont2 {
+
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        color: rgb(135, 135, 135);
+        line-height: 20px;
+        margin-left: 200px;
+        margin-bottom: 50px;
+    }
+
+    .commonfont3 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: right;
+        font-size: 20PX;
+        color: rgb(255, 128, 0);
+    }
+
+    .commonfont4 {
+
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 12px;
+        color: rgb(135, 135, 135);
+        line-height: 20px;
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+
+    .button3 {
+        position: relative;
+        border: none;
+        height: 250px;
+        width: 250px;
+        margin-left: 200px;
+        padding-right: 75px;
+        padding-top: 70px;
+        font-weight: 550;
+        font-size: 17px;
+    }
+
+    .box-description {
+        color: #666666af;
+        font-size: 14px;
+        padding-left: 20px;
+        padding-top: 15px;
+        line-height: 17px;
+    }
+
+    .box {
+        width: 270px;
+        height: 300px;
+        border-radius: 12px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        text-align: left;
+        font-family: Arial, sans-serif;
+    }
+
+    .boxtittle {
+        color: #000000;
+        font-size: 17px;
+        font-weight: 550;
+        padding-left: 20px;
+        padding-top: 180px;
+
+    }
+
+    .boxtittle1 {
+        color: #000000;
+        font-size: 14px;
+        font-weight: 550;
+        padding-left: 20px;
+        padding-top: 180px;
+
+    }
+
+    .container {
+        display: flex;
+        gap: 90px;
+        max-width: 100%;
+        margin-top: 45px;
+    }
+
+    .container1 {
+        display: flex;
+        gap: 70px;
+        max-width: 100%;
+        margin-top: 45px;
+    }
+
+    .container2 {
+        display: flex;
+        gap: 50px;
+        max-width: 100%;
+        margin-top: 30px;
+    }
+
+
+    .containercircle {
+        display: flex;
+        max-width: 100%;
+        margin-top: 45px;
+        gap: 10px;
+    }
+
+    .containercircle1 {
+        display: flex;
+        max-width: 100%;
+        gap: 10px;
+    }
+
+    .containercircle2 {
+        display: flex;
+        max-width: 100%;
+        gap: 10px;
+    }
+
+    .box1 {
+        width: 200px;
+        height: 250px;
+        border-radius: 12px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        text-align: left;
+        font-family: Arial, sans-serif;
+        margin-top: 50px;
+    }
+
+    .box2 {
+        width: 280px;
+        height: 250px;
+        border-radius: 12px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        text-align: left;
+        font-family: Arial, sans-serif;
+        margin-top: 115px;
+    }
+
+    .circle-button {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: rgb(255, 128, 0);
+        color: white;
+        border: none;
+        font-size: 16px;
+        align-items: center;
+        font-size: medium;
+        margin-top: 25px;
+    }
+
+    .circle-button1 {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: transparent;
+        color: rgb(153, 153, 153);
+        border: 1px solid rgb(153, 153, 153);
+        font-size: 16px;
+        align-items: center;
+        justify-content: center;
+        font-size: medium;
+        margin-top: 25px;
+        margin-left: 560px;
+    }
+
+    .circle-button2 {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: transparent;
+        color: rgb(153, 153, 153);
+        border: 1px solid rgb(153, 153, 153);
+        font-size: 16px;
+        align-items: center;
+        justify-content: center;
+        font-size: medium;
+        margin-top: 25px;
+        margin-left: 150px;
+    }
+
+    .customerfeedback {
+        background-color: rebeccapurple;
+        height: 150px;
+        width: 400px;
+        border-radius: 5px;
+
+    }
+
+    .testimonial-section {
+        display: flex;
+        padding: 50px;
+        padding-bottom: 200px;
+        background-color: rgb(247, 248, 252);
+
+    }
+
+    .testimonial-card {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        width: 400px;
+        margin-left:600px ;
+    }
+
+    .testimonial-card p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    .author-info,
+    .company-info {
+        text-align: center;
+    }
+
+    .author-info h3,
+    .company-info h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .author-info p,
+    .company-info p {
+        font-size: 14px;
+        color: #888;
+    }
+
+    .navigation-buttons {
+        margin-top: 20px;
+    }
+
+    .nav-btn {
+        background-color: #fff;
+        border: 2px solid #ddd;
+        color: #ff6600;
+        padding: 10px;
+        font-size: 1.2rem;
+        cursor: pointer;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .nav-btn.next-btn {
+        background-color: #ff6600;
+        color: #fff;
+        border: none;
+    }
+
+    .testimonial-card {
+        background: #fff;
+        padding: 30px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        max-width: 500px;
+        position: absolute;
+        
+    }
+
+    .user-avatar {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    .testimonial-quote {
+        font-size: 1rem;
+        margin-bottom: 20px;
+        color: #555;
+    }
+
+    .user-name {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .user-location {
+        font-size: 0.9rem;
+        color: #888;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+    }
+
+    .blog-section {
+        padding: 40px 20px;
+    }
+
+    .blog-section h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .blog-section .highlight {
+        color: #ff7f3f;
+    }
+
+    .blog-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .blog-item {
+        background-color: #fff;
+        width: 200px;
+        border-radius: 10px;
+        text-align: left;
+    }
+
+
+    .blog-item img {
+        width: 100%;
+        height: 160px;
+
+    }
+
+    .blog-item {
+        font-size: 13px;
+        margin: 12px;
+    }
+
+    .blog-item .date {
+        color: #777;
+        font-size: 12px;
+        margin: 12px;
+    }
+
+    .pagination {
+        margin-top: 20px;
+    }
+
+    .dot {
+        height: 10px;
+        width: 10px;
+        background-color: #d9d9d9;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+
+    .dot.active {
+        background-color: #ff7f3f;
+    }
+
+    header {
+        background-color: #ff6a00d2;
+        color: #fff;
+        padding: 20px 0;
+        height: 170px;
+        width: 600px;
+        border-radius: 10px;
+        justify-content: center;
+        align-content: center;
+        margin-left: 290px;
+
+    }
+
+    .subscribe-banner {
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .subscribe-banner h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .subscribe-banner form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .subscribe-banner input[type="email"] {
+        padding: 10px;
+        padding-left: 20px;
+        border: none;
+        border-radius: 5px;
+        width: 250px;
+    }
+
+    .subscribe-banner button {
+        padding: 10px 20px;
+        background-color: white;
+        color: #FF6B00;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    footer {
+        background-color: #f2f2f2;
+        padding-left: 20px;
+        padding-top: 50px;
+        margin-top: 50px;
+    }
+
+    .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-section {
+        flex-basis: 25%;
+        font-size: 12px;
+        color: #777;
+
+    }
+
+    .footer-section h3 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .footer-section ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-section ul li {
+        margin-bottom: 10px;
+    }
+
+    .footer-section ul li a {
+        text-decoration: none;
+    }
+
+    .social-icons {
+        margin-top: 20px;
+    }
+
+    .social-icons a {
+        margin-right: 10px;
+        color: #333;
+    }
+
+    .copyright {
+        margin-top: 50px;
+        text-align: left;
+        padding-left: 10px;
+        font-size: small;
+        color: #888;
+    }
+
+    .terms {
+        margin-top: 50px;
+        text-align: right;
+        padding-left: 10px;
+        font-size: small;
+        color: #888;
+    }
+    .signup{
+        position: absolute;
+        height: 120px;
+        width: 120px;
+        margin-left: 80px;
+        margin-top: 35px;
+    }
+    .star{
+        position: absolute;
+        height: 25px;
+        width: 25px;
+        margin-left: 50px;
+    }
+    .arrow{
+        position: absolute;
+        height: 35px;
+        width: 25px;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+    .discount {
+        background-color:#ffc59b65;
+        color:#ff6600;
+        border-radius: 3px;
+        padding: 2px;
+        margin-left: 15px;
+    }
 </style>
 
 <body style="background-color: rgb(254, 252, 251);">
     <div>
-        <div style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-size: small;">
+        <div
+            style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-size: small;">
             <b style="padding-left:250px;font-family: 'Times New Roman', Times, serif;font-size: 18px;">Trabook</b>
             <img src="worldair.png" class="globle">
             <a style="padding-left:170px;">Home</a>
@@ -88,7 +655,8 @@
         <div style="padding-left: 250px;padding-top:25px;"><button class="button1">Discover Now</button></div>
 
 
-        <div class="explore1" style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+        <div class="explore1"
+            style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
             <div
                 style="display: inline-block;;font-size: smaller;padding-left:20px;padding-bottom: 20px;padding-top: 20px;">
                 <label for="loc">Location</label>
@@ -114,7 +682,234 @@
             <span style="margin-left: 30px;"><button class="button" style="text-align: center;">Explore
                     Now</button></span>
         </div>
+        <section style="background-color: rgb(247, 248, 252);margin-top: 35px;">
+            <img src=Page2_Task_2.png class="image-container1">
+            <div class="commonfont">
+                <b>Things you need <span style="color:rgb(255, 128, 0);">to do</span></b>
+            </div>
+            <p class="commonfont1">We ensure that you'll embark on a perfectly planned,<br>safe vacation at a price you
+                can afford.</p>
+            <div class="container">
+                <div class="box" style="margin-left: 80px;">
+                    <img class = "signup" src = signup.png>
+                    <div class="boxtittle">Sign Up</div>
+                    <div class="box-description">Completed all the work associated<br> with planning and processing
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img class = "signup" src = money.png>
+                    <div class="boxtittle">Worth of Money</div>
+                    <div class="box-description">Completed all the work associated<br> with planning and processing
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img class = "signup" src = travel.png >
+                    <div class="boxtittle">Exciting travel</div>
+                    <div class="box-description">Completed all the work associated<br> with planning and processing
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section style="background-color: rgb(254, 252, 251);">
+            <div class="commonfont">
+                <b>Exclusive <span style="color:rgb(255, 128, 0);">deals & discounts</span></b>
+            </div>
+            <div class="commonfont1">
+                <p>Discover our fantastic early booking discounts<br>& start planning your journey</p>
+            </div>
+            <div class="container1">
+                <div><img class="image-container2" src="Page3_1.jpg">
+                    <img class="image-container2" src="Page3_2.jpg" style="padding-left: 270px;">
+                    <img class="image-container2" src="Page3_3.jpg" style="padding-left: 540px;">
+                    <img class="image-container2" src="Page3_4.jpg" style="padding-left: 810px;">
+                </div>
+
+                <div class="box1" style="margin-left: 25px;">
+                    <div class="boxtittle">Madrid <img class = star src="Star.png"><span class="commonfont1" style="padding-left: 80px;">4.8</span></div>
+                    <div class="box-description">Spain<strike style="padding-left: 50px;">$950</strike><b class="discount">$850</b></div>
+
+                </div>
+                <div class="box1">
+                    <div class="boxtittle">Firenze<img class = star src="Star.png"><span class="commonfont1" style="padding-left: 80px;">4.5</span></div>
+                    <div class="box-description">Italy<strike style="padding-left: 60px;">$850</strike><b class="discount">$750</b></div>
+                </div>
+                <div class="box1">
+                    <div class="boxtittle">Paris<img class = star src="Star.png" style="margin-left: 70px;"><span class="commonfont1" style="padding-left: 100px;">4.4</span></div>
+                    <div class="box-description">France<strike style="padding-left: 40px;">$699<b class="discount">$599</b></strike></div>
+                </div>
+                <div class="box1">
+                    <div class="boxtittle">London<img class = star src="Star.png" style="margin-left: 55px;"><span class="commonfont1" style="padding-left: 80px;">4.8</span></div>
+                    <div class="box-description">UK<strike style="padding-left: 65px;">$850</strike><b class="discount">$850</b></div>
+                </div>
+            </div>
+            <div class="containercircle">
+                <button class="circle-button1">&#8592;</button>
+                <button class="circle-button" style="margin-left: 10PX;">&#8594;</button>
+            </div>
+        </section>
+        <section style="background-color: rgb(254, 252, 251);">
+            <div class="commonfont">
+                <img src=Page3_Task_3.png class="image-container3">
+                <b>Best <span style="color:rgb(255, 128, 0);">Vaccation Plan</span></b>
+            </div>
+            <div class="commonfont1">
+                <p>Plan your perfect vacation with our travel agency. Choose<br>among hundereds of all-inclusive offers!
+                </p>
+            </div>
     </div>
+    <div class="containercircle1" style="margin-left: 430px;;">
+        <button class="circle-button1">&#8592;</button>
+        <button class="circle-button" style="margin-left: 10PX;">&#8594;</button>
+    </div>
+    <div class="container2">
+        <div><img class="image-container4" src="Page3_1.jpg" style="padding-left: 55px;">
+            <img class="image-container4" src="Page3_4.jpg" style="padding-left: 385px;">
+            <img class="image-container4" src="Page3_1.jpg" style="padding-left: 715px;">
+        </div>
+
+        <div class="box2" style="margin-left: 80px;">
+            <div class="boxtittle1">Rome, Italy<span class="commonfont3" style="padding-left: 100px;">$5,42K</span>
+            </div><img class ="arrow" src="Arrow.png">
+            <div class="commonfont4">10 Days Trip<img class = star src="Star.png" style="margin-left: 120px; padding-bottom: 20px;"><span style="padding-left: 150px;">4.8 </span></div>
+        </div>
+        <div class="box2">
+            <div class="boxtittle1">London, UK<span class="commonfont3" style="padding-left: 100px;">$2,42K</span></div>
+            <img class ="arrow" src="Arrow.png"><div class="commonfont4"> 10 Days Trip<img class = star src="Star.png" style="margin-left: 120px; padding-bottom: 20px;"><span style="padding-left: 150px;">4.8</span></div>
+        </div>
+        <div class="box2">
+            <div class="boxtittle1">Osaka, Japan<span class="commonfont3" style="padding-left: 100px;">$5,42K</span>
+            </div>
+            <img class ="arrow" src="Arrow.png"><div class="commonfont4"> 10 Days Trip<img class = star src="Star.png" style="margin-left: 120px; padding-bottom: 20px;"><span style="padding-left: 150px;">4.8</span></div>
+        </div>
+    </div>
+    </section>
+    <section style="background-color: rgb(247, 248, 252); margin-top: 50px;">
+        <div class="testimonial-section">
+            <div>
+                <h2><b style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 40px;">What
+                        people say</b><br><strong
+                        style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 40px;color: rgb(255, 128, 0)">about
+                        us.</strong></h2>
+                <p class="testimonial-subtext" style="line-height: 25px;">Our Clients send us bunch of smilies with our services <br>and we love them.
+                </p>
+                <div class="navigation-buttons">
+                    <button class="nav-btn prev-btn">&#8592;</button>
+                    <button class="nav-btn next-btn">&#8594;</button>
+                </div>
+            </div>
+            <div class="testimonial-card" style="z-index:1000 ">
+                <p>"On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew
+                    next. Of believed or diverted no."</p>
+                <div class="author-info">
+                    <h3>Mike Taylor</h3>
+                    <p>Lahore, Pakistan</p>
+                </div>
+                <div class="testimonial-card" style=" margin-left: 0px;background-color: #88888844;">
+                    <div class="company-info">
+                        <h3>Chris Thomas</h3>
+                        <p>CEO of Red Button</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="blog-section">
+            <h2
+                style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;text-align: center;padding-bottom:40px ;">
+                Get update with <span class="highlight">latest blog</span></h2>
+            <div class="blog-container">
+                <div class="blog-item">
+                    <img src="Page3_1.jpg" alt="Travel Blog 1">
+                    <h3>The Amazing Difference a Year of Travelling.</h3>
+                    <p class="date">July 27, 2021</p>
+                </div>
+                <div class="blog-item">
+                    <img src="Page3_2.jpg" alt="Travel Blog 2">
+                    <h3>Travel far enough, you meet yourself.</h3>
+                    <p class="date">July 27, 2021</p>
+                </div>
+                <div class="blog-item">
+                    <img src="Page3_3.jpg" alt="Travel Blog 3">
+                    <h3>How to Save Money While Visiting Africa.</h3>
+                    <p class="date">July 27, 2021</p>
+                </div>
+                <div class="blog-item">
+                    <img src="Page3_4.jpg" alt="Travel Blog 4">
+                    <h3>Reflections on 5 Months of Travel: Time to Hang.</h3>
+                    <p class="date">July 27, 2021</p>
+                </div>
+            </div>
+            <div class="pagination">
+                <span class="dot active" style="margin-left: 550px;"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+    <section>
+        <header>
+            <div class="subscribe-banner">
+                <h2>Subscribe and get exclusive deals & offers</h2>
+                <form>
+                    <input type="email" placeholder="Enter your mail">
+                    <button type="submit" style="margin-left: 10px;">Subscribe</button>
+                </form>
+            </div>
+        </header>
+
+        <footer style="margin-left: 120px;margin-right: 120px;border-radius: 10px;">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Trabook</h3>
+                    <p style="line-height: 20px;">Book your trip in minutes,<br> get full control for much longer.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a>About</a></li>
+                        <li><a>Careers</a></li>
+                        <li><a>Logistic</a></li>
+                        <li><a>Privacy & Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a>Help/FAQ</a></li>
+                        <li><a>Press</a></li>
+                        <li><a>Affiliates</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>More</h3>
+                    <ul>
+                        <li><a>Press Centre</a></li>
+                        <li><a>Our Blog</a></li>
+                        <li><a>Low Fare Tips</a></li>
+                        <li><a>Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div style="padding-bottom: 20px;">
+                <p class="copyright">&copy; Copyright, Trabook 2022. All rights reserved.
+                    <span style="padding-left: 750px;">Terms & Conditions</span>
+                </p>
+            </div>
+
+        </footer>
+    </section>
+
+
+
 </body>
 
 </html>
